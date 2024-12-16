@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Caballero en Apuros</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header class="main-header">
+    <nav class="navbar">
+        <div class="logo">
+            <img  class="escudo" src="src/main/resources/multimediaweb/escudologo.png" alt="">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">Sobre el Juego</a></li>
+            <li><a href="#game">Jugar</a></li>
+            <li><a href="#contact">Buzón</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content" >
+        <h1>Caballero en Apuros</h1>
+        <p>Embárcate en una aventura épica y salva el reino en este emocionante juego web desarrollado en Godot 4.</p>
+        <a href="#game" class="btn-primary">¡Jugar Ahora!</a>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>Sobre el Juego</h2>
+    <p>"En este emocionante juego, te embarcarás en una aventura para llegar al final de un misterioso bosque, lleno de secretos, desafíos y oscuras cuevas. Tu misión es encontrar al amigo del abuelo, que se oculta al final de este enigmático viaje. A lo largo del recorrido, atravesarás espesas áreas del bosque, sorteando obstáculos naturales, y te adentrarás en cuevas sombrías llenas de enigmas que pondrán a prueba tu ingenio. Solo los más valientes y astutos podrán superar estos retos y llegar al final para descubrir los secretos que aguardan. ¿Estás listo para enfrentarte al bosque, las cuevas y los misterios que esconden? La aventura te espera.</p>
+    <img class="postersize" src="src/main/resources/multimediaweb/posterjuego.jpg" alt="Caballero en acción" class="about-image">
+</section>
+
+<section id="game" class="game">
+    <h2>Jugar</h2>
+    <iframe src="src/main/resources/static/index.html" class="game-frame" title="Caballero en Apuros"></iframe>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Buzón</h2>
+    <p>Si tienes alguna mejora o comentario, no dudes en escribirnos:</p>
+    <form action="https://formsubmit.co/tu-email" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Tu Nombre" required>
+        <input type="email" name="email" placeholder="Tu Correo Electrónico" required>
+        <textarea name="message" placeholder="Tu Mensaje" required></textarea>
+        <button type="submit" class="btn-primary">Enviar</button>
+    </form>
+</section>
+
+<footer class="main-footer">
+    <p>&copy; 2024 Caballero en Apuros. Todos los derechos reservados.</p>
+</footer>
+
+<script>
+    // Animación del título principal
+    document.addEventListener('DOMContentLoaded', () => {
+        const title = document.querySelector('.hero-content h1');
+        title.style.transition = 'transform 0.5s, opacity 0.5s';
+        title.style.transform = 'translateY(0)';
+        title.style.opacity = '1';
+    });
+</script>
+</body>
+</html>
