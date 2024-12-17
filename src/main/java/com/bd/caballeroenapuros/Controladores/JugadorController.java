@@ -8,7 +8,7 @@ import java.io.File;
 import java.io.IOException;
 
 @RequestMapping("/api")
-@CrossOrigin(origins = "https://snazzy-otter-3796ba.netlify.app/")
+@CrossOrigin(origins = "https://angalemen.github.io/caballeroenapurosHost/")
 public class JugadorController {
 
     @GetMapping("/jugadores")
