@@ -4,6 +4,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+
+// CORS permite que el frontend alojado en un dominio diferente pueda comunicarse con el backend.
 @Configuration
 public class CorsConfig implements WebMvcConfigurer {
 
