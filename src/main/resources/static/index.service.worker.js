@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1734375499|410475860';
+const CACHE_VERSION = '1734434033|47970694';
 /** @type {string} */
 const CACHE_PREFIX = 'Mensajero en Apu-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
